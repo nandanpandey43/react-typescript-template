@@ -3,16 +3,20 @@ import "./styles.css"
 
 
 export const App = () =>  {
-    return <h1>
-         React Typescript Webpack Template
+    
+    return (
+    <>
+        <h1>
+            React Typescript Webpack Template
+        </h1>
         <br />
-        <br />
-        <h5>
+        <h3>
         env.NODE_ENV - {process.env.NODE_ENV}
-        </h5>
-        <h5>
+        </h3>
+        <h3>
         env.name - {process.env.name}
-        </h5>
+        </h3>
         <Counter />
-    </h1>
+    </>
+    )
 }
